@@ -17,4 +17,5 @@ TBD
 TBD
 
 ### Results
-<img src="./figures/results.png" width="800" alt="results" align=center/>
+<img src="./figures/example1.png" width="800" alt="example1" align=center/>
+<img src="./figures/example2.png" width="800" alt="example2" align=center/>
