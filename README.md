@@ -1,6 +1,6 @@
 # Semantic Image Matting [Under construction]
 ---
-This is the official repository of Semantic Image Matting (CVPR2021). Dataset, code and model will be released soon.
+This is the official repository of Semantic Image Matting (CVPR2021). 
 
 
 ### Overview
@@ -11,10 +11,7 @@ Natural image matting separates the foreground from background in fractional occ
 We show how to obtain better alpha mattes by incorporating into our framework semantic classification of matting regions. Specifically, we consider and learn 20 classes of matting patterns, and propose to extend the conventional trimap to semantic trimap. The proposed semantic trimap can be obtained automatically through patch structure analysis within trimap regions. Meanwhile, we learn a multi-class discriminator to regularize the alpha prediction at semantic level, and content-sensitive weights to balance different regularization losses. 
 
 ### Dataset
-TBD
-
-### Run
-TBD
+Download our semantic image matting dataset (SIMD) [here](https://drive.google.com/file/d/1Cl_Nacgid9ZLVZ7j-cMHnim4SocTMY92/view?usp=sharing). SIMD is composed self-collected images and a subset of adobe images. To obtain the complete dataset, please contact Brian Price (bprice@adobe.com) for the Adobe Image Matting dataset first and follow the instructions within SIMD.zip. 
 
 ### Results
 <img src="./figures/example1.png" width="800" alt="example1" align=center/>
