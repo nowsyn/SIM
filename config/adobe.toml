@@ -1,0 +1,39 @@
+# Refer to utils/config.py for definition and options.
+
+version = "Adobe"
+task = "Adobe"
+dist = false
+debug = false
+
+
+[classifier]
+n_channel = 4
+num_classes = 20
+load_size = 320
+resume_checkpoint = "checkpoints/classifier_resnet50_best.pth.tar"
+
+
+[model]
+resume_checkpoint = "checkpoints/Adobe/ckpt_best.pth"
+
+
+[model.arch]
+encoder = "resnet50_BN"
+n_channel = 11
+atrous_rates = [12,24,36]
+aspp_channel = 256
+
+
+[data]
+workers = 8
+test_dir = "datasets/Composition-1K"
+
+[log]
+tensorboard_path = "./logs/tensorboard"
+logging_path = "./logs/stdout"
+checkpoint_path = "./checkpoints"
+
+
+[test]
+checkpoint = "best"
+fast_eval = true
