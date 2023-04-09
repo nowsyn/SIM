@@ -43,20 +43,12 @@ Some pretrained models are listed below with their performance.
             <th><a href="https://drive.google.com/file/d/1kmhQtO-6wXTxgHtQCLRj3xPOEtXyzTXC/view?usp=sharing"> model </a></th>
         </tr>
         <tr>
-            <td>Composition-1K (paper)</td>
-            <td>28.0</td>
-            <td>5.8</td>
-            <td>10.8</td>
-            <td>24.8</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Composition-1K (repo)</td>
+            <td>Composition-1K</td>
             <td>27.7</td>
             <td>5.6</td>
             <td>10.7</td>
             <td>24.4</td>
-            <td><a href=""https://drive.google.com/file/d/1uUIhzBKyTRfu0Ylhm0O9pyV9TayPaODt/view?usp=sharing> model </a></td>
+            <td><a href="https://drive.google.com/file/d/1uUIhzBKyTRfu0Ylhm0O9pyV9TayPaODt/view?usp=sharing"> model </a></td>
         </tr>
     </tbody>
 </table>
